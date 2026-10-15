@@ -1,9 +1,7 @@
 package com.example.seminar1;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,33 +22,34 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i("Seminar","A pornit!");
+        Log.e("Seminar", "onStart");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.w("Seminar","onPause");
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.i("Seminar","onRestart");
+        Log.e("Seminar", "onStop");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("Seminar","onResume");
+        Log.e("Seminar", "onPause");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i("Seminar","onDestroy");
+        Log.e("Seminar", "onDestroy");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.e("Seminar", "onResume");
     }
 }

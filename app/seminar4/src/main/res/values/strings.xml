@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">seminar4</string>
+    <string name="introduceti_numele">Introduceti numele</string>
+    <string name="apasa">apasa</string>
+    <string name="esti_student">Esti student?</string>
+    <string name="ex_club_sandwich">ex: Club Sandwich</string>
+    <string name="pret_lei">Pret (lei)</string>
+    <string name="ex_19_5">ex: 19.5</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="marime">Marime</string>
+    <string name="mic">Mic</string>
+    <string name="mediu">Mediu</string>
+    <string name="mare">Mare</string>
+    <string name="tip_paine">Tip paine</string>
+    <string name="rating">Rating</string>
+    <string name="cu_sos">Cu sos</string>
+    <string name="adauga_sandwich">Adauga sandwich</string>
+    <string name="nume">Nume</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="adauga_sandwich_xml">Adauga sandwich</string>
+    <string name="niciun_sandwich_adaugat">Niciun sandwich adaugat</string>
+    <string-array name="tipuri_paine">
+        <item>Alba</item>
+        <item>Integrala</item>
+        <item>Cu seminte</item>
+        <item>Baghetă</item>
+    </string-array>
+</resources>

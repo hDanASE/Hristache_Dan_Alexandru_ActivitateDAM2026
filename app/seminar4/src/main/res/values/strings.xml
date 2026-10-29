@@ -19,6 +19,8 @@
     <string name="salveaza">Salveaza</string>
     <string name="adauga_sandwich_xml">Adauga sandwich</string>
     <string name="niciun_sandwich_adaugat">Niciun sandwich adaugat</string>
+    <string name="lista_sandwichuri">Lista sandwichuri</string>
+    <string name="vezi_lista">Vezi lista</string>
     <string-array name="tipuri_paine">
         <item>Alba</item>
         <item>Integrala</item>

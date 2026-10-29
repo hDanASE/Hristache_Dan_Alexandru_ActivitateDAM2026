@@ -19,6 +19,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ListaSandwichuriActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdaugaSandwichActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
